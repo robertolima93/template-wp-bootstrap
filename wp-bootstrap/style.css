@@ -1,0 +1,141 @@
+/*
+
+Theme Name: WP Bootstrap
+
+Theme URI: http://dev.wp1
+
+Author: Paulo Roberto Local
+
+Author URI: http://dev.wp1
+
+Description: template.
+
+Version: 1.0
+
+License: GNU General Public License version 3
+
+License URI: license.txt
+
+Text Domain: wp-bootstrap 
+
+Domain Path: /languages/
+
+Tags: one-column, two-columns, right-sidebar,front-page-post-form,full-width-template,rtl-language-support,sticky-post,theme-options, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, footer-widgets, portfolio, e-commerce, blog
+
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/12/2017, 19:57:22
+    Author     : Paulo Roberto Local
+*/
+
+body{}
+
+.header{background: #4a4a4a; padding: 22px 0}
+.logo { padding: 2px 0}
+
+/*Navbar*/
+/* .nav-tabs .active{background-color: #900;} */
+
+
+/**/
+.width-full-box{background: #069; padding: 0px 0;margin: 30px 0}
+.title-box h4{background: #115178; text-transform: uppercase; color: #fff; padding: 10px; border-bottom: 3px solid #20acfc; border-radius: 5px;}
+.item-box-3 h1 a {color: #fff;}
+.item-box-3 span{text-transform: uppercase; color: #fff; font-weight: bold; font-size: 12px;padding: 10px 0; display: inline-block;}
+.item-box-3 h1{margin: 0; font-size: 18px; font-weight: bold;}
+.item-box-our h4{ background: #e5da39; border-bottom: 3px solid #c9be2c; color: #222;}
+.item-box-our h1 a {color: #fff;}
+
+/****** posts-games*******/
+#posts-games{background: #fff;}
+/***********Video*************/
+#video-home{}
+.media-heading{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.testimonial-box{margin: 20px 40px; padding: 10px 0;}
+/*******Single.php***********/
+.conteudo-single{padding: 40px 0;}
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.conteudo-single p{font-size: 16px; color: #666;}
+.conteudo-single img{display: block; max-width: 100%; height: auto;}
+.conteudo-single h1{font-weight: 700; color: #900; text-transform: uppercase;;}
+.conteudo-single h2{font-weight: 700; color: #069;}
+.conteudo-single h3{font-weight: 700; color: #518c55;}
+.conteudo-single h4{color: #900;}
+.conteudo-single h5{color: #900;}
+.conteudo-single h6{color: #900;}
+.conteudo-single ul {list-style: none; margin: 0; padding: 0;}
+.conteudo-single ul li {padding:10px 0;}
+.conteudo-single ol {list-style: none; margin: 0; padding: 14px;}
+.conteudo-single ol li {padding:10px 0;}
+.conteudo-single blockquote {background:#eee; padding: 20px; border-radius: 6px; color: #fff; border-left: 4px solid #900;}
+
+/*******Page.php***********/
+.page{padding: 40px 0;}
+.conteudo-page p{font-size: 16px; color: #666;}
+.conteudo-page img{display: block; max-width: 100%; height: auto;}
+.conteudo-page h1{font-weight: 700; color: #900; text-transform: uppercase;;}
+.conteudo-page h2{font-weight: 700; color: #069;}
+.conteudo-page h3{font-weight: 700; color: #518c55;}
+.conteudo-page h4{color: #900;}
+.conteudo-page h5{color: #900;}
+.conteudo-page h6{color: #900;}
+.conteudo-page ul {list-style: none; margin: 0; padding: 0;}
+.conteudo-page ul li {padding:10px 0;}
+.conteudo-page ol {list-style: none; margin: 0; padding: 14px;}
+.conteudo-page ol li {padding:10px 0;}
+.conteudo-page blockquote {background:#eee; padding: 20px; border-radius: 6px; color: #fff; border-left: 4px solid #900;}
+
+/*******Page.php***********/
+.conteudo-category  {padding: 40px 0;}
+.conteudo-category p{font-size: 16px; color: #666;}
+.conteudo-category img{display: block; max-width: 100%; height: auto;}
+.conteudo-category h1{font-weight: 700; color: #900; text-transform: uppercase;;}
+.conteudo-category h2{font-weight: 700; color: #900;}
+.conteudo-category h3{font-weight: 700; color: #518c55;}
+.conteudo-category h4{margin-bottom: 30px; padding: 0 30px; color: #900; font-weight: 700; text-transform: uppercase;;}
+.conteudo-category h5{color: #900;}
+.conteudo-category h6{color: #900;}
+.conteudo-category ul {list-style: none; margin: 0; padding: 0;}
+.conteudo-category ul li {padding:10px 0;}
+.conteudo-category ol {list-style: none; margin: 0; padding: 14px;}
+.conteudo-category ol li {padding:10px 0;}
+.conteudo-category blockquote {background:#eee; padding: 20px; border-radius: 6px; color: #fff; border-left: 4px solid #900;}
+
+
+
+
+.single{padding: 40px 0px;}
+/*SIdebar*/
+.sidebar{}
+.widget {list-style: none;}
+.widget h2{font-weight: 700; text-transform: uppercase; font-size: 18px; color: #518c55}
+.widget ul{margin: 0; padding: 0; list-style: none;}
+.widget ul li{padding: 10px 0;}
+.widget p{color: #111; font-size: 15px;}
+
+
+/******footer*******/
+.footer{ margin-top: 45px;}
+.footer .title-box h4{ background: #115178; border-bottom: #20acfc solid 3px; }
+.footer-copy{background: #115178; padding: 10px 0; color: #fff; margin-top: 45px;}
+
+/* Minha conta*/
+.log-co li{ list-style: none; }
+.log-co h2{text-transform: uppercase; color:#900; font-size: 16px;}
+/**************rodape*************/
+.sobre-rodape{list-style: none;}
+.sobre-rodape h2 {font-size: 18px; color: #069;}
+.instagram{list-style: none;}
+
